@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F8A4BFA2BCA16430088A020 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4BF92BCA16430088A020 /* TabBarRouter.swift */; };
-		4F8A4BFC2BCA16590088A020 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4BFB2BCA16590088A020 /* TabBarController.swift */; };
-		4F8A4BFF2BCA17440088A020 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4BFE2BCA17440088A020 /* MapViewController.swift */; };
-		4F8A4C012BCA178F0088A020 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4C002BCA178F0088A020 /* AppointmentViewController.swift */; };
-		4F8A4C032BCA17AB0088A020 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4C022BCA17AB0088A020 /* OtherViewController.swift */; };
-		4F8A4C052BCA17D60088A020 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4C042BCA17D60088A020 /* HomeViewController.swift */; };
+		4F4C6E5F2BCD557200752D6A /* JockeyOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C6E5D2BCD557200752D6A /* JockeyOne-Regular.ttf */; };
+		4F4C6E602BCD557200752D6A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C6E5E2BCD557200752D6A /* OFL.txt */; };
 		4F96288E2BCA0F1C006BC7E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96288D2BCA0F1C006BC7E9 /* AppDelegate.swift */; };
 		4F9628902BCA0F1C006BC7E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96288F2BCA0F1C006BC7E9 /* SceneDelegate.swift */; };
 		4F9628972BCA0F1E006BC7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9628962BCA0F1E006BC7E9 /* Assets.xcassets */; };
@@ -21,12 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F8A4BF92BCA16430088A020 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
-		4F8A4BFB2BCA16590088A020 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		4F8A4BFE2BCA17440088A020 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		4F8A4C002BCA178F0088A020 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
-		4F8A4C022BCA17AB0088A020 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
-		4F8A4C042BCA17D60088A020 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F4C6E5D2BCD557200752D6A /* JockeyOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JockeyOne-Regular.ttf"; sourceTree = "<group>"; };
+		4F4C6E5E2BCD557200752D6A /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		4F96288A2BCA0F1C006BC7E9 /* MedHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F96288D2BCA0F1C006BC7E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F96288F2BCA0F1C006BC7E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,36 +51,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		4F8A4BF82BCA16310088A020 /* TabBar */ = {
+		4F4C6E5C2BCD557200752D6A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4F8A4BF92BCA16430088A020 /* TabBarRouter.swift */,
-				4F8A4BFB2BCA16590088A020 /* TabBarController.swift */,
+				4F4C6E5D2BCD557200752D6A /* JockeyOne-Regular.ttf */,
+				4F4C6E5E2BCD557200752D6A /* OFL.txt */,
 			);
-			path = TabBar;
-			sourceTree = "<group>";
-		};
-		4F8A4BFD2BCA17250088A020 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4F8A4BFE2BCA17440088A020 /* MapViewController.swift */,
-				4F8A4C002BCA178F0088A020 /* AppointmentViewController.swift */,
-				4F8A4C022BCA17AB0088A020 /* OtherViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		4F8A4C062BCB4AA10088A020 /* HomeVC */ = {
-			isa = PBXGroup;
-			children = (
-				4F8A4C042BCA17D60088A020 /* HomeViewController.swift */,
-			);
-			path = HomeVC;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		4F8A4C072BCB7A080088A020 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4F4C6E5C2BCD557200752D6A /* Fonts */,
 				4F9628962BCA0F1E006BC7E9 /* Assets.xcassets */,
 				4F9628982BCA0F1E006BC7E9 /* LaunchScreen.storyboard */,
 				4F96289B2BCA0F1E006BC7E9 /* Info.plist */,
@@ -128,9 +103,6 @@
 			children = (
 				4F8A4C082BCB7A3B0088A020 /* Application */,
 				4F8A4C072BCB7A080088A020 /* Resources */,
-				4F8A4C062BCB4AA10088A020 /* HomeVC */,
-				4F8A4BFD2BCA17250088A020 /* ViewController */,
-				4F8A4BF82BCA16310088A020 /* TabBar */,
 			);
 			path = MedHealthApp;
 			sourceTree = "<group>";
@@ -205,6 +177,8 @@
 			files = (
 				4F96289A2BCA0F1E006BC7E9 /* LaunchScreen.storyboard in Resources */,
 				4F9628972BCA0F1E006BC7E9 /* Assets.xcassets in Resources */,
+				4F4C6E602BCD557200752D6A /* OFL.txt in Resources */,
+				4F4C6E5F2BCD557200752D6A /* JockeyOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8A4C012BCA178F0088A020 /* AppointmentViewController.swift in Sources */,
-				4F8A4BFF2BCA17440088A020 /* MapViewController.swift in Sources */,
 				4F96288E2BCA0F1C006BC7E9 /* AppDelegate.swift in Sources */,
-				4F8A4BFA2BCA16430088A020 /* TabBarRouter.swift in Sources */,
-				4F8A4C052BCA17D60088A020 /* HomeViewController.swift in Sources */,
-				4F8A4C032BCA17AB0088A020 /* OtherViewController.swift in Sources */,
-				4F8A4BFC2BCA16590088A020 /* TabBarController.swift in Sources */,
 				4F9628902BCA0F1C006BC7E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

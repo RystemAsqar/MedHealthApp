@@ -1,2 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-MedHealthApp/Pods-MedHealthApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Appointment/Appointment.framework
+${BUILT_PRODUCTS_DIR}/Dashboard/Dashboard.framework
+${BUILT_PRODUCTS_DIR}/Map/Map.framework
+${BUILT_PRODUCTS_DIR}/Other/Other.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/TabBar/TabBar.framework

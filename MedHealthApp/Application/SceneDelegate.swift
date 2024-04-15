@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import TabBar
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

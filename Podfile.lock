@@ -1,16 +1,51 @@
 PODS:
+  - Appointment (0.1.0):
+    - Dashboard
+  - Dashboard (0.1.0):
+    - SnapKit (~> 5.6.0)
+  - Map (0.1.0)
+  - Other (0.1.0):
+    - Appointment
+    - Dashboard
   - SnapKit (5.6.0)
+  - TabBar (0.1.0):
+    - Appointment
+    - Dashboard
+    - Map
+    - Other
 
 DEPENDENCIES:
+  - Appointment (from `./DevLibraries/Appointment`)
+  - Dashboard (from `./DevLibraries/Dashboard`)
+  - Map (from `./DevLibraries/Map`)
+  - Other (from `./DevLibraries/Other`)
   - SnapKit
+  - TabBar (from `./DevLibraries/TabBar`)
 
 SPEC REPOS:
   trunk:
     - SnapKit
 
-SPEC CHECKSUMS:
-  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+EXTERNAL SOURCES:
+  Appointment:
+    :path: "./DevLibraries/Appointment"
+  Dashboard:
+    :path: "./DevLibraries/Dashboard"
+  Map:
+    :path: "./DevLibraries/Map"
+  Other:
+    :path: "./DevLibraries/Other"
+  TabBar:
+    :path: "./DevLibraries/TabBar"
 
-PODFILE CHECKSUM: d5fbfa78a42696e18fd87ac30f5be3fb42801c46
+SPEC CHECKSUMS:
+  Appointment: 77a73ba329e83c42eef368805af821ae92c036b4
+  Dashboard: f087768fb7b3a45475171f3e355932e2e93ae351
+  Map: 51eca5afba580898124bdfff1c7d80fa1222f6d4
+  Other: 049531ad239a1bc973ac5aca5e2b58ce0ba537b3
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  TabBar: 835b0d37d6c1b97df5ade1e969a4aba5227368c9
+
+PODFILE CHECKSUM: 97563663cc859ef2c08bed759c595b064a49ef1c
 
 COCOAPODS: 1.14.3

@@ -7,5 +7,9 @@ target 'MedHealthApp' do
 
   # Pods for MedHealthApp
 	pod 'SnapKit'
-
+	pod 'TabBar', :path => './DevLibraries/TabBar'
+	pod 'Dashboard', :path => './DevLibraries/Dashboard'
+	pod 'Appointment', :path => './DevLibraries/Appointment'
+	pod 'Map', :path => './DevLibraries/Map'
+	pod 'Other', :path => './DevLibraries/Other'
 end

@@ -1,0 +1,6 @@
+framework module Other {
+  umbrella header "Other-umbrella.h"
+
+  export *
+  module * { export * }
+}
