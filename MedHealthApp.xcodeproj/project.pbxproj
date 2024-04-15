@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8A4BFA2BCA16430088A020 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4BF92BCA16430088A020 /* TabBarRouter.swift */; };
+		4F8A4BFC2BCA16590088A020 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4BFB2BCA16590088A020 /* TabBarController.swift */; };
+		4F8A4BFF2BCA17440088A020 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4BFE2BCA17440088A020 /* MapViewController.swift */; };
+		4F8A4C012BCA178F0088A020 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4C002BCA178F0088A020 /* AppointmentViewController.swift */; };
+		4F8A4C032BCA17AB0088A020 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4C022BCA17AB0088A020 /* OtherViewController.swift */; };
+		4F8A4C052BCA17D60088A020 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A4C042BCA17D60088A020 /* HomeViewController.swift */; };
+		4F96288E2BCA0F1C006BC7E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96288D2BCA0F1C006BC7E9 /* AppDelegate.swift */; };
+		4F9628902BCA0F1C006BC7E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96288F2BCA0F1C006BC7E9 /* SceneDelegate.swift */; };
+		4F9628972BCA0F1E006BC7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9628962BCA0F1E006BC7E9 /* Assets.xcassets */; };
+		4F96289A2BCA0F1E006BC7E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9628982BCA0F1E006BC7E9 /* LaunchScreen.storyboard */; };
+		FC4F595DB2210684243864E4 /* Pods_MedHealthApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDA0DCBB941E6AB9CC8F9ED /* Pods_MedHealthApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F8A4BF92BCA16430088A020 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		4F8A4BFB2BCA16590088A020 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4F8A4BFE2BCA17440088A020 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4F8A4C002BCA178F0088A020 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		4F8A4C022BCA17AB0088A020 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		4F8A4C042BCA17D60088A020 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F96288A2BCA0F1C006BC7E9 /* MedHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F96288D2BCA0F1C006BC7E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F96288F2BCA0F1C006BC7E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F9628962BCA0F1E006BC7E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F9628992BCA0F1E006BC7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F96289B2BCA0F1E006BC7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A44653A2B539BE6D8691FB2 /* Pods-MedHealthApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHealthApp.release.xcconfig"; path = "Target Support Files/Pods-MedHealthApp/Pods-MedHealthApp.release.xcconfig"; sourceTree = "<group>"; };
+		F8BB9AC41F03C1DE2AF54C1D /* Pods-MedHealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHealthApp.debug.xcconfig"; path = "Target Support Files/Pods-MedHealthApp/Pods-MedHealthApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FEDA0DCBB941E6AB9CC8F9ED /* Pods_MedHealthApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedHealthApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9628872BCA0F1C006BC7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4F595DB2210684243864E4 /* Pods_MedHealthApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC8DBA201C16ACDFB98D01E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8BB9AC41F03C1DE2AF54C1D /* Pods-MedHealthApp.debug.xcconfig */,
+				8A44653A2B539BE6D8691FB2 /* Pods-MedHealthApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F8A4BF82BCA16310088A020 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4F8A4BF92BCA16430088A020 /* TabBarRouter.swift */,
+				4F8A4BFB2BCA16590088A020 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4F8A4BFD2BCA17250088A020 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F8A4BFE2BCA17440088A020 /* MapViewController.swift */,
+				4F8A4C002BCA178F0088A020 /* AppointmentViewController.swift */,
+				4F8A4C022BCA17AB0088A020 /* OtherViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F8A4C062BCB4AA10088A020 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				4F8A4C042BCA17D60088A020 /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		4F8A4C072BCB7A080088A020 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F9628962BCA0F1E006BC7E9 /* Assets.xcassets */,
+				4F9628982BCA0F1E006BC7E9 /* LaunchScreen.storyboard */,
+				4F96289B2BCA0F1E006BC7E9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F8A4C082BCB7A3B0088A020 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4F96288D2BCA0F1C006BC7E9 /* AppDelegate.swift */,
+				4F96288F2BCA0F1C006BC7E9 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4F9628812BCA0F1C006BC7E9 = {
+			isa = PBXGroup;
+			children = (
+				4F96288C2BCA0F1C006BC7E9 /* MedHealthApp */,
+				4F96288B2BCA0F1C006BC7E9 /* Products */,
+				2DC8DBA201C16ACDFB98D01E /* Pods */,
+				BF32EBE6ED6F3B0707DBC239 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F96288B2BCA0F1C006BC7E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F96288A2BCA0F1C006BC7E9 /* MedHealthApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F96288C2BCA0F1C006BC7E9 /* MedHealthApp */ = {
+			isa = PBXGroup;
+			children = (
+				4F8A4C082BCB7A3B0088A020 /* Application */,
+				4F8A4C072BCB7A080088A020 /* Resources */,
+				4F8A4C062BCB4AA10088A020 /* HomeVC */,
+				4F8A4BFD2BCA17250088A020 /* ViewController */,
+				4F8A4BF82BCA16310088A020 /* TabBar */,
+			);
+			path = MedHealthApp;
+			sourceTree = "<group>";
+		};
+		BF32EBE6ED6F3B0707DBC239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEDA0DCBB941E6AB9CC8F9ED /* Pods_MedHealthApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9628892BCA0F1C006BC7E9 /* MedHealthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F96289E2BCA0F1E006BC7E9 /* Build configuration list for PBXNativeTarget "MedHealthApp" */;
+			buildPhases = (
+				E0845CAB793ECFB5BB59C6EB /* [CP] Check Pods Manifest.lock */,
+				4F9628862BCA0F1C006BC7E9 /* Sources */,
+				4F9628872BCA0F1C006BC7E9 /* Frameworks */,
+				4F9628882BCA0F1C006BC7E9 /* Resources */,
+				FF2EFAF5C799C2B932ADA4DD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedHealthApp;
+			productName = MedHealthApp;
+			productReference = 4F96288A2BCA0F1C006BC7E9 /* MedHealthApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9628822BCA0F1C006BC7E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4F9628892BCA0F1C006BC7E9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F9628852BCA0F1C006BC7E9 /* Build configuration list for PBXProject "MedHealthApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9628812BCA0F1C006BC7E9;
+			productRefGroup = 4F96288B2BCA0F1C006BC7E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9628892BCA0F1C006BC7E9 /* MedHealthApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9628882BCA0F1C006BC7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F96289A2BCA0F1E006BC7E9 /* LaunchScreen.storyboard in Resources */,
+				4F9628972BCA0F1E006BC7E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0845CAB793ECFB5BB59C6EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedHealthApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2EFAF5C799C2B932ADA4DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedHealthApp/Pods-MedHealthApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedHealthApp/Pods-MedHealthApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedHealthApp/Pods-MedHealthApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9628862BCA0F1C006BC7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8A4C012BCA178F0088A020 /* AppointmentViewController.swift in Sources */,
+				4F8A4BFF2BCA17440088A020 /* MapViewController.swift in Sources */,
+				4F96288E2BCA0F1C006BC7E9 /* AppDelegate.swift in Sources */,
+				4F8A4BFA2BCA16430088A020 /* TabBarRouter.swift in Sources */,
+				4F8A4C052BCA17D60088A020 /* HomeViewController.swift in Sources */,
+				4F8A4C032BCA17AB0088A020 /* OtherViewController.swift in Sources */,
+				4F8A4BFC2BCA16590088A020 /* TabBarController.swift in Sources */,
+				4F9628902BCA0F1C006BC7E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F9628982BCA0F1E006BC7E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9628992BCA0F1E006BC7E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F96289C2BCA0F1E006BC7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F96289D2BCA0F1E006BC7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F96289F2BCA0F1E006BC7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BB9AC41F03C1DE2AF54C1D /* Pods-MedHealthApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C4KZRT7P4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedHealthApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = international.MedHealthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9628A02BCA0F1E006BC7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A44653A2B539BE6D8691FB2 /* Pods-MedHealthApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C4KZRT7P4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedHealthApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = international.MedHealthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9628852BCA0F1C006BC7E9 /* Build configuration list for PBXProject "MedHealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F96289C2BCA0F1E006BC7E9 /* Debug */,
+				4F96289D2BCA0F1E006BC7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F96289E2BCA0F1E006BC7E9 /* Build configuration list for PBXNativeTarget "MedHealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F96289F2BCA0F1E006BC7E9 /* Debug */,
+				4F9628A02BCA0F1E006BC7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F9628822BCA0F1C006BC7E9 /* Project object */;
+}
