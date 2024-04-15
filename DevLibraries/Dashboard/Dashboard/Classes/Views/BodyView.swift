@@ -10,9 +10,7 @@ import SnapKit
 
 
 class BodyView: UIView {
-    
-    
-    
+
     private lazy var rectangle: UIView = {
         let rectangle = UIView()
         rectangle.layer.cornerRadius = 15
@@ -45,6 +43,7 @@ class BodyView: UIView {
     }()
     
     
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -55,8 +54,6 @@ class BodyView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    
 }
 
 extension BodyView {
