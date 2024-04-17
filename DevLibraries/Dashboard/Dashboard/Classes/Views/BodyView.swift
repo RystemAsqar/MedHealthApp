@@ -41,9 +41,6 @@ class BodyView: UIView {
         label.font = .systemFont(ofSize: 13)
         return label
     }()
-    
-    
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
