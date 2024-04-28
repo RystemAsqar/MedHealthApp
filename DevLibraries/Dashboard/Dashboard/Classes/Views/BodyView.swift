@@ -20,6 +20,8 @@ class BodyView: UIView {
         rectangle.layer.shadowOffset = CGSize(width: 4, height: 4)
         rectangle.layer.shadowRadius = 4.0
         rectangle.backgroundColor = UIColor(named: "Main")
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(buttonClicked))
+        rectangle.addGestureRecognizer(tapGesture)
         return rectangle
     }()
     private lazy var doctorIcon: UIImageView = {
@@ -28,9 +30,10 @@ class BodyView: UIView {
         return image
     }()
     private lazy var rectanglePrimaryLabel: UILabel = {
-        let label = UILabel()
+        var label = UILabel()
         label.text = "Self Check up Covid-19"
         label.font = .systemFont(ofSize: 16, weight: .bold)
+        label.isUserInteractionEnabled = true
         return label
     }()
     private lazy var rectangleSecondaryLabel: UILabel = {
@@ -47,6 +50,11 @@ class BodyView: UIView {
         configureViews()
         configureConstraints()
     }
+    @objc func buttonClicked() {
+            // Change the label's text when the button is clicked
+        print("interge")
+        rectanglePrimaryLabel.text = "Button Clicked!"
+        }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

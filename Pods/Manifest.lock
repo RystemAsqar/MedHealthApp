@@ -1,12 +1,25 @@
 PODS:
+  - AppNetwork (0.1.0):
+    - SnapKit (~> 5.6.0)
   - Appointment (0.1.0):
     - Dashboard
+  - CommonUI (0.1.0):
+    - SnapKit (~> 5.6.0)
   - Dashboard (0.1.0):
     - SnapKit (~> 5.6.0)
+  - LogIn (0.1.0):
+    - AppNetwork
+    - CommonUI
+    - Register
+    - SnapKit (~> 5.6.0)
+    - TabBar
   - Map (0.1.0)
   - Other (0.1.0):
     - Appointment
     - Dashboard
+  - Register (0.1.0):
+    - CommonUI
+    - SnapKit (~> 5.6.0)
   - SnapKit (5.6.0)
   - TabBar (0.1.0):
     - Appointment
@@ -15,10 +28,14 @@ PODS:
     - Other
 
 DEPENDENCIES:
+  - AppNetwork (from `./DevLibraries/AppNetwork`)
   - Appointment (from `./DevLibraries/Appointment`)
+  - CommonUI (from `./DevLibraries/CommonUI`)
   - Dashboard (from `./DevLibraries/Dashboard`)
+  - LogIn (from `./DevLibraries/LogIn`)
   - Map (from `./DevLibraries/Map`)
   - Other (from `./DevLibraries/Other`)
+  - Register (from `./DevLibraries/Register`)
   - SnapKit
   - TabBar (from `./DevLibraries/TabBar`)
 
@@ -27,25 +44,37 @@ SPEC REPOS:
     - SnapKit
 
 EXTERNAL SOURCES:
+  AppNetwork:
+    :path: "./DevLibraries/AppNetwork"
   Appointment:
     :path: "./DevLibraries/Appointment"
+  CommonUI:
+    :path: "./DevLibraries/CommonUI"
   Dashboard:
     :path: "./DevLibraries/Dashboard"
+  LogIn:
+    :path: "./DevLibraries/LogIn"
   Map:
     :path: "./DevLibraries/Map"
   Other:
     :path: "./DevLibraries/Other"
+  Register:
+    :path: "./DevLibraries/Register"
   TabBar:
     :path: "./DevLibraries/TabBar"
 
 SPEC CHECKSUMS:
+  AppNetwork: 6833bf17a725ba46cda6ef9e02866a282512ddb3
   Appointment: 77a73ba329e83c42eef368805af821ae92c036b4
+  CommonUI: 4ff6003cdae97d89066b2d640bfeddf4385ba99e
   Dashboard: f087768fb7b3a45475171f3e355932e2e93ae351
+  LogIn: 9da70273faa0367be0718d4ccfd668e7aafbcad4
   Map: 51eca5afba580898124bdfff1c7d80fa1222f6d4
   Other: 049531ad239a1bc973ac5aca5e2b58ce0ba537b3
+  Register: 2cb5e8a39242ddb97159fbb4da9489a5df5a14fe
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   TabBar: 835b0d37d6c1b97df5ade1e969a4aba5227368c9
 
-PODFILE CHECKSUM: 97563663cc859ef2c08bed759c595b064a49ef1c
+PODFILE CHECKSUM: 16b17f310c7634e834fe54f92ae2077e131b133c
 
 COCOAPODS: 1.14.3

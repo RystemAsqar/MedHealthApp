@@ -12,4 +12,9 @@ target 'MedHealthApp' do
 	pod 'Appointment', :path => './DevLibraries/Appointment'
 	pod 'Map', :path => './DevLibraries/Map'
 	pod 'Other', :path => './DevLibraries/Other'
+	pod 'LogIn', :path => './DevLibraries/LogIn'
+	pod 'CommonUI', :path => './DevLibraries/CommonUI'
+	pod 'Register', :path => './DevLibraries/Register'
+	pod 'AppNetwork', :path => './DevLibraries/AppNetwork'
 end
+

@@ -73,7 +73,6 @@ public class DashboardViewController: UIViewController {
             transformCell(cell)
         }
     }
-    
     // MARK: - Properties
     var presenter: ViewToPresenterDashboardProtocol?
     
@@ -112,11 +111,14 @@ extension DashboardViewController: PresenterToViewDashboardProtocol{
     }
 }
 
-extension DashboardViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
+
+
+//MARK: - Extensions
+extension DashboardViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+    
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
     }
-    
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryCollectionViewCell.IDENTIFIER, for: indexPath) as! PrimaryCollectionViewCell
         return cell
@@ -124,10 +126,9 @@ extension DashboardViewController: UICollectionViewDataSource, UICollectionViewD
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 180, height: 100)
     }
-    
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.item == layout.currentPage {
-            print("es che noviy ViewControllerga osy zhaqtan navigation beruge bolad")
+            print("can move to VC")
         } else {
             collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
             layout.currentPage = indexPath.item
@@ -136,26 +137,26 @@ extension DashboardViewController: UICollectionViewDataSource, UICollectionViewD
         }
     }
     public func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
-        print("Anima")
+        print("isTapped")
     }
-    
     public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         print("scrolling")
     }
-    
     public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         if decelerate {
             setupCell()
         }
     }
-    
+}
+
+
+extension DashboardViewController: UICollectionViewDelegateFlowLayout {
     private func setupCell() {
         let indexPath = IndexPath(item: layout.currentPage, section: 0)
         if let cell = primaryCollectionView.cellForItem(at: indexPath) {
             transformCell(cell)
         }
     }
-    
     private func transformCell(_ cell: UICollectionViewCell, isEffect: Bool = true) {
         if !isEffect {
             cell.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
@@ -164,8 +165,6 @@ extension DashboardViewController: UICollectionViewDataSource, UICollectionViewD
         UIView.animate(withDuration: 0.2) {
             cell.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
         }
-        
-        
         for otherCell in primaryCollectionView.visibleCells {
             if let indexPath = primaryCollectionView.indexPath(for: otherCell) {
                 if indexPath.item != layout.currentPage {

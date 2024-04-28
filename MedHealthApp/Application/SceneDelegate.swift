@@ -7,6 +7,8 @@
 
 import UIKit
 import TabBar
+import LogIn
+import Register
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         window.windowScene = windowScene
-        window.rootViewController = TabBarRouter.build()
+        window.rootViewController = SignInRouter.createModule()
         self.window = window
         window.makeKeyAndVisible()
     }

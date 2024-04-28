@@ -176,18 +176,26 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AppNetwork/AppNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Appointment/Appointment.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Dashboard/Dashboard.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LogIn/LogIn.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Map/Map.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Other/Other.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Register/Register.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TabBar/TabBar.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AppNetwork/AppNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Appointment/Appointment.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Dashboard/Dashboard.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LogIn/LogIn.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Map/Map.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Other/Other.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Register/Register.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TabBar/TabBar.framework"
 fi

@@ -1,0 +1,43 @@
+{
+  "name": "LogIn",
+  "version": "0.1.0",
+  "summary": "A short description of BottomSheet.",
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.6.0"
+    ],
+    "CommonUI": [
+
+    ],
+    "Register": [
+
+    ],
+    "TabBar": [
+
+    ],
+    "AppNetwork": [
+
+    ]
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RystemAsqar/MedHealthApp.git",
+  "authors": {
+    "Rustem": "bornqazaqi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/RystemAsqar/MedHealthApp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": [
+    "LogIn/Classes/**/*.{h,m,swift,json,csv,strings,xib,storyboard, xcassets, xcdatamodeld}"
+  ],
+  "resource_bundles": {
+    "LogIn": [
+      "LogIn/**/*.{xcdatamodeld,csv}"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.{h,swift}"
+}
